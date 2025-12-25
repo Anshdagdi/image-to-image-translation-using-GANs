@@ -1,19 +1,19 @@
 
-# pix2pix
-[Project](https://phillipi.github.io/pix2pix/) | [Arxiv](https://arxiv.org/abs/1611.07004) |
-[PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
+# image-to-image-translation-using-GANs
+[Project](https://github.com/Anshdagdi/image-to-image-translation-using-GANs) | [Arxiv](https://arxiv.org/abs/1611.07004) |
+
 
 Torch implementation for learning a mapping from input images to output images, for example:
 
 <img src="imgs/examples.jpg" width="900px"/>
 
 Image-to-Image Translation with Conditional Adversarial Networks  
- [Phillip Isola](http://web.mit.edu/phillipi/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Tinghui Zhou](https://people.eecs.berkeley.edu/~tinghuiz/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/)   
+ [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Tinghui Zhou](https://people.eecs.berkeley.edu/~tinghuiz/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/)   
  CVPR, 2017.
 
 On some tasks, decent results can be obtained fairly quickly and on small datasets. For example, to learn to generate facades (example shown above), we trained on just 400 images for about 2 hours (on a single Pascal Titan X GPU). However, for harder problems it may be important to train on far larger datasets, and for many hours or even days.
 
-**Note**: Please check out our [PyTorch](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) implementation for pix2pix and CycleGAN. The PyTorch version is under active development and can produce results comparable to or better than this Torch version.
+
 
 ## Setup
 
@@ -161,7 +161,7 @@ L1 error is plotted to the display by default. Set the environment variable `dis
 If you use this code for your research, please cite our paper <a href="https://arxiv.org/pdf/1611.07004v1.pdf">Image-to-Image Translation Using Conditional Adversarial Networks</a>:
 
 ```
-@article{pix2pix2017,
+@article{Ansh Dagdi,
   title={Image-to-Image Translation with Conditional Adversarial Networks},
   author={Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
   journal={CVPR},
